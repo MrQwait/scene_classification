@@ -3,8 +3,8 @@ import requests
 from PIL import Image
 import matplotlib.pyplot as plt
 
-API_URL = "http://127.0.0.1:8000/predict"  
-# потом заменишь на Render URL
+# API_URL = "http://127.0.0.1:8000/predict" // Для локального запуска
+API_URL = "https://scene-classification-bcyp.onrender.com/predict"
 
 st.title("Классификация ландшафтов")
 
